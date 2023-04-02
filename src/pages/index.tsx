@@ -4,6 +4,7 @@ import Link from "next/link";
 import styles from "../styles/Home.module.scss";
 import { Links } from "../components/Links/Links";
 import { Footer } from "../components/Footer/Footer";
+import { List } from "../components/List/List";
 
 export default function Home() {
   return (
@@ -60,6 +61,7 @@ export default function Home() {
           </div>
         </div>
         <Links />
+        <List />
       </main>
       <Footer />
     </>
